@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agal Onlinemart</title>
+    <link rel="stylesheet" href="ecommerce.css">
+	<script src="ecommerce.js">
+</script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Agal Online Mart</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="product-list">
+            <div class="container">
+                <article class="product">
+                    <img src="product1.jpg" alt="Product 1">
+                    <h2>Product 1</h2>
+                    <p>$10.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </article>
+                <!-- Repeat for more products -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My E-Commerce Store</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
